@@ -7,7 +7,7 @@ body{
     height: 90%;
     background-color: rgb(1, 38, 38);
     color: white;
-    position-area: 100%;
+    /*position-area: 100%;*/   
 }
 
 img{
@@ -16,17 +16,18 @@ img{
     margin-right: 50px;
 }
 img{
-height: 70px;
-margin-left:50px ;
-}
+height: 100px;
+margin-left:100px;
+
 .logo {
- display: flex;
+ display: flex100;
  align-items: center;
  gap: 10px;
  padding: 30px;
  /*border: 1px solid white;*/
  }
  header {
+ padding: auto; ;
 display: flex;
 justify-content: space-between;
 background-color: rgba(24, 25, 26, 0.924);
@@ -51,6 +52,9 @@ margin: 20px;
     text-decoration: none;
     font-size: 20px;
     font-style: oblique;
-    
+    }
+    .hero img{
+        top: 0;
+        left: 0;
 
-}
+    }
